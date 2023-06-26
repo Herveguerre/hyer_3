@@ -266,66 +266,78 @@ h2{
   min-width: 300px;
   padding: 20px;
   position: relative;
-  height: 400px;
+  height: 395px;
 }
-.toutes_les_solutions :nth-child(1){
+.toutes_les_solutionsP1{
   font-size: 50px;
   width:100%;
   font-weight: 700;
   justify-content: center;
-  margin-top: 8px;
-  position: absolute;
+  margin-top: 20px;
+  
 }
-.toutes_les_solutions :nth-child(2){
-  color: #8AADB2;
-  margin-top: 50px;
-  width: 80%;
-  position: absolute;
-  font-size: clamp(20px, 7.5vw, 80px);
+.toutes_les_solutionsP2{
+  margin-top: 20px;
+  width: 90%;
+  font-size: 25px;
+  font-weight: 700;
 }
 .btn_sec_2{
-  font-size: 10px;
-  width: 150px;
-  margin-top: 1px;
+  font-size: 20px;
+  width: 250px;
+  margin-top: 110px;
   margin-left: 50px;
   background-color: transparent;
   color: var(--clr-4);
   border: 1px solid;
   padding: 15px;
   border-radius: 25px;
-  transition: color 2s;
   position: absolute;
+  font-weight: 600;
 }
 
 .btn_sec_2:hover{
   background-color: var(--clr-4);
   color: var(--clr-3);
   cursor: pointer;
+  transition: color 2s;
 }
 
 .sur_demande{
   background-image: url(/img/img_home/1611761434-perseat2.jpg);  
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: center left;
   background-size: cover;
-  width: 33.33vw;  
+  width: 100vw;  
   min-width: 300px; 
   padding: 20px;
   position: relative;
+  height: 395px;
 }
-.sur_demande :nth-child(1){
+.sur_demande::after {/* assombrir le background pour que le texte blanc soit plus lisible */
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.sur_demandeP1{
+  z-index: 99;
   color: var(--clr-4);
-  margin-top: 80vh;
+  margin-top: 170px;
   font-size: 50px;  
   position: absolute;
 }
 
-.sur_demande :nth-child(2){
+.sur_demandeP2{
+  z-index: 99; /* pas oublier de positionner plus haut sinon l'assombrissement du bg s'applique egalement */
   color: var(--clr-4);
-  font-size: 30px;
+  font-size: 26px;
   width: 80%;
   position: absolute;
-  margin-top: 85vh;
+  margin-top: 250px;
 }
 
 
@@ -334,28 +346,32 @@ h2{
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 33.33vw;
+  width: 100vw;
   min-width: 300px;
   color: var(--clr-4);
   padding: 20px;
   font-size: 30px;
   position: relative;
+  height: 395px;
 }
-.vols_partages p{
-  margin-top: 85vh;
-  width: 70%;
+.vols_partagesP1{
+  margin-top: 200px;
+  width: 80%;
+  font-size: 45px;
+  font-weight: 600;
   position: absolute;
 }
-.vols_partages :nth-child(1){
-  margin-top: 80vh;
-  font-size: 50px;
+.vols_partagesP2{
+  margin-top: 270px;
+  font-size: 29px;
+  font-weight: 100;
   position: absolute;
 }
 
-/*section3*/
+/*destinations po^pulaires*/
 .sec_3{
   margin: 0  auto ;
-  width: 80vw;
+  width: 90vw;
   margin-top: 50px;
   display: flex;
   
@@ -364,7 +380,7 @@ h2{
   display: flex;  
 }
 .div_l_s3{
-  width: 800px;
+  width: 500px;
   height: 900px;
   min-width: 00px;
   padding: 10px;
@@ -384,47 +400,31 @@ h2{
   margin-left: 20px;
 }
 
-.r_s3_bar, 
-.r_s3_can{
-  margin-right: 30px;
-}
-
-.r_s3_bar,
-.r_s3_ib, 
-.r_s3_can, 
-.r_s3_pa{
-  width: 280px;
-  height: 265px;
-  border-bottom: 1px solid rgb(98, 97, 97); 
-  border-bottom-right-radius: 30px;
-  margin-left: 20px;  
-}
-@media only screen and (max-width:320px) {
-.r_s3_bar,
-.r_s3_ib, 
-.r_s3_can, 
-.r_s3_pa{
-  width: 180px;
-  height: 165px;
-}
 .div_l_s3 img{
   display: none;
 }
-.div_r_s3_1{
-  display:block;
-  
-}
+
 .r_s3_bar, 
 .r_s3_can{
   margin-right: 0px;
 }
 
+.r_s3_bar,
+.r_s3_ib, 
+.r_s3_can, 
+.r_s3_pa{
+  width: 180px;
+  height: 265px;
+  border-bottom: 1px solid rgb(98, 97, 97); 
+  border-bottom-right-radius: 30px;
+  margin-left: 20px;  
 }
+
 .r_s3_bar :nth-child(1),
 .r_s3_ib :nth-child(1), 
 .r_s3_can :nth-child(1), 
 .r_s3_pa :nth-child(1){
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: 30px;
 }
 

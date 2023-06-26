@@ -5,19 +5,19 @@ export default function ServicesFlexibles() {
     <div className='servicesflexibles'>
 
       <div className='toutes_les_solutions'>
-        <p>Services flexibles</p>
-        <p>Des solutions intelligentes pour toutes vos exigences d'affrètement</p>
+        <p className='toutes_les_solutionsP1'>Services flexibles</p>
+        <p  className='toutes_les_solutionsP2'>Des solutions intelligentes pour toutes vos exigences d'affrètement</p>
         <button className='btn_sec_2' >Toutes les solutions</button>
       </div>
 
       <div className='sur_demande'>
-        <p>Sur demande</p>
-        <p>Réservez votre avion. Personnalisez tous les apects de votre voyage.</p>
+        <p className='sur_demandeP1'>Sur demande</p>
+        <p className='sur_demandeP2'>Réservez votre avion. Personnalisez tous les apects de votre voyage.</p>
       </div>
 
       <div className='vols_partages'>
-        <p>Vols partagés</p>
-        <p>Volez en privé pour une fraction du prix.</p>
+        <p className='vols_partagesP1'>Vols partagés</p>
+        <p className='vols_partagesP2'>Volez en privé pour une fraction du prix.</p>
       </div>
 
     </div>

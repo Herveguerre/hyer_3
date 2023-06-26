@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 
-
-
 const inter = Inter({ subsets: ['latin'] })
 import HomeHero from '@/components/element_home/HomeHero'
 import ServicesFlexibles from '@/components/element_home/ServicesFlexibles'
@@ -14,7 +12,6 @@ import Carousel from '@/components/element_home/Carousel'
 import ReserverUnVol from '@/components/element_home/ReserverUnVol'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-
 
 export default function Home() {
   return (

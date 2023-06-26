@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ServicesFlexibles() {
   return (
-    <div className='section2'>
+    <div className='servicesflexibles'>
 
       <div className='toutes_les_solutions'>
         <p>Services flexibles</p>

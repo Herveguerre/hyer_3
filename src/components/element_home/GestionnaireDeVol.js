@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section4() {
+export default function GestionnaireDeVol() {
   return (
     <div className='sec4'>
       <div className='sec4_l'></div>

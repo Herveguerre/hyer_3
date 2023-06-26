@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Section6() {
+export default function Carousel() {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
     '/img/img_home/car1.jpg',

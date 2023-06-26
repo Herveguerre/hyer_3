@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Section1() {
+export default function HomeHero() {
   return (
     <div className="main">
       <hr />

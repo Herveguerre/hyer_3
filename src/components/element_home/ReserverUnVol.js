@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section7() {
+export default function ReserverUnVol() {
   return (
     <div className='sec_7'>
       <div className='sec_7_content'>

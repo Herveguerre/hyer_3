@@ -5,13 +5,13 @@ import { Inter } from 'next/font/google'
 
 
 const inter = Inter({ subsets: ['latin'] })
-import Section1 from '@/components/element_home/Section1'
-import Section2 from '@/components/element_home/Section2'
-import Section3 from '@/components/element_home/Section3'
-import Section4 from '@/components/element_home/Section4'
-import Section5 from '@/components/element_home/Section5'
-import Section6 from '@/components/element_home/Section6'
-import Section7 from '@/components/element_home/Section7'
+import HomeHero from '@/components/element_home/HomeHero'
+import ServicesFlexibles from '@/components/element_home/ServicesFlexibles'
+import DestinationsPopulaires from '@/components/element_home/DestinationsPopulaires'
+import GestionnaireDeVol from '@/components/element_home/GestionnaireDeVol'
+import ExperienceHyer from '@/components/element_home/ExperienceHyer'
+import Carousel from '@/components/element_home/Carousel'
+import ReserverUnVol from '@/components/element_home/ReserverUnVol'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
@@ -20,13 +20,13 @@ export default function Home() {
   return (
     <div>
         <Header/>
-        <Section1/>
-        <Section2/>
-        <Section3/>
-        <Section4/>
-        <Section5/>
-        <Section6/>
-        <Section7/>
+        <HomeHero/>
+        <ServicesFlexibles/>
+        <DestinationsPopulaires/>
+        <GestionnaireDeVol/>
+        <ExperienceHyer/>
+        <Carousel/>
+        <ReserverUnVol/>
         <Footer/>
     </div>
   )

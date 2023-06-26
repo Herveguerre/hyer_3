@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import AboutHeader from '@/components/aboutPage/AboutHeader'
 import AboutSection from '@/components/aboutPage/AboutSection'
 import AvisClients from '@/components/aboutPage/AvisClients'
 import EquipeFondatrice from '@/components/aboutPage/EquipeFondatrice'
@@ -10,7 +11,7 @@ import React from 'react'
 export default function About() {
   return (
     <div>
-        <Header/>
+        <AboutHeader/>
         <AboutSection/>
         <EquipeFondatrice/>
         <PourquoiHyer/>

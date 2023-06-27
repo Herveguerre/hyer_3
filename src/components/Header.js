@@ -14,16 +14,25 @@ export default function Header() {
                         <Link href="/Solutions"><li>Solutions</li></Link>
                         <Link href="/About"><li>A propos de nous</li></Link>
                         <Link href="/Contact"><li>Contact</li></Link>
+                        
+                </div>
+                <div>
                         <h2> Avion <br/>personnalisée</h2>
+                        <p></p>
+                        <button>Réserver un avion</button>
+                        <button>Réserver un vol partagé</button>
                 </div>
-                <div className='burger_1' >
+                <div>
+                        <div className='burger_1' >
                         &#x2708;
-                </div>
-                <div className='burger' >
-                        <div className="line"></div>
-                        <div className="line"></div>
-                        <div className="line"></div>
-                </div>
+                        </div>
+                        <div className='burger' >
+                                <div className="line"></div>
+                                <div className="line"></div>
+                                <div className="line"></div>
+                        </div>
+                </div>     
+                
         </div>
     )
 }

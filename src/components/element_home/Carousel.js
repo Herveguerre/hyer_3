@@ -11,9 +11,7 @@ export default function Carousel() {
     '/img/img_home/car6.jpg'
   ];
 
-  const previousImage = () => {
-    setCurrentImage(currentImage === 0 ? images.length - 1 : currentImage - 1);
-  };
+ 
 
   const nextImage = () => {
     setCurrentImage(currentImage === images.length - 1 ? 0 : currentImage + 1);
@@ -22,13 +20,8 @@ export default function Carousel() {
   return (
     <div>
       <div className='sec_6_img'>
-      <button className="carousel-button right" onClick={nextImage}></button>
-      <img src={images[currentImage]} alt="" />
-      
-      </div>
-      <div>
-        
-        
+        <button className="carousel-button right" onClick={nextImage}>
+        <img src={images[currentImage]} alt="" /></button>
       </div>
     </div>
   );

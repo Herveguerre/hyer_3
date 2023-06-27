@@ -5,8 +5,8 @@ export default function ReserverUnVol() {
     <div className='sec_7'>
       <div className='sec_7_content'>
         <div className='sec_7_txt'>
-          <p>Qu'est-ce que tu attends?</p>
-          <p>Réserver un vol</p>
+          <p className='ReserverUnVolP1'>Qu'est-ce que tu attends?</p>
+          <p className='ReserverUnVolP2'>Réserver un vol</p>
         </div>       
       </div>
     </div>

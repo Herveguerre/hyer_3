@@ -22,11 +22,32 @@
   min-width: 100px;
   margin-left: 50px;
   margin-top: 50px;
-  
+  height: 200px;
+}
+
+.HeroContent{
+  margin-left: -300px;
+}
+.HeroP{
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.HeroBtn{
+  background-color: var(--clr-3);
+  color: var(--clr-4);
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .burger, .burger_1 {
-  margin-left: 30px;
+  margin-left:100px;
   margin-top: 40px;
   width: 60px;
   height: 60px;
@@ -40,8 +61,8 @@
 
 .burger_1{
   color: var(--clr-5);
-  width: 100px;
-  margin-left: -100px;
+  width: 60px;
+  
 }
 
 .line {
@@ -76,7 +97,7 @@ li{
 
 h2{
   margin-top: 500px; 
-  font-size: clamp(1vw, 70px, 30vw);
+  font-size: clamp(1vw, 50px, 30vw);
   
 }
 
@@ -463,14 +484,14 @@ margin-top: 70px;
   width: 100%;
   min-width: 300px;
   position: relative;
-  height: 540px;
+  height: 800px;
   
 }
 .sec4_rP1{
   font-size: 50px;
   font-weight: 600;
   padding-top: 50px;
-  padding-left: 20px;
+  padding-left: 14px;
 }
 .sec4_rP2{
   font-size: 24px; 
@@ -479,6 +500,7 @@ margin-top: 70px;
   margin-top: 15px;  
   padding: 20px;
   position: absolute;
+ 
 }
 /*experiance hyer */
 .sec_5{
@@ -487,7 +509,7 @@ margin-top: 70px;
   font-size: 20px;
 }
 .sec_5_title{
-  font-size: 90px;
+  font-size: 50px;
   font-weight: 600;
   margin-top: 40px;
 }

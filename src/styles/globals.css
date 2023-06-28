@@ -62,7 +62,6 @@
 .burger_1{
   color: var(--clr-5);
   width: 60px;
-  
 }
 
 .line {
@@ -79,7 +78,6 @@
   background-position: center center;
   background-size: cover ;
   height: 970px;
-  
 }
 
 .nav{
@@ -101,7 +99,21 @@ h2{
   
 }
 
+@media (max-width:768px) {
+  .burger, .burger_1 {
+    margin-left: 600px;
+  }
+  .burger{
+    margin-top: -130px;
+  }
+  .burger_1{
+    margin-top: -160px;
+  }
+  .loggo{
 
+  }
+  
+}
 
 
 
@@ -225,12 +237,7 @@ h2{
 
 }
 @media (max-width:720px) {
-  .d_4, .d_5{
-      display: block;
-  }
-  .d_1{
-      width: 0vw;
-  }
+
 }
 .d_4 hr{
   width: 70%;
@@ -271,18 +278,9 @@ h2{
 .servicesflexibles{
   
   margin-top: 20px;
-  
- 
 }
 @media (max-width:720px) {
- .section2{
-  display: block;
-  width: 100vw;
- } 
- .toutes_les_solutions, .sur_demande, .vols_partages{
-  width: 320px;
-  height: 500px;
- }
+
 }
 .toutes_les_solutions{
   background-color: var(--clr-2);
@@ -413,19 +411,19 @@ h2{
   font-weight: 600;
   
 }
-.div_l_s3 img{
+.imgsec3{
   width: 100%;
   border-bottom-right-radius: 30px;
   object-fit: cover;
+  display: none;                            /*mq*/
+  max-width: 400px;
 }
 .div_r_s3{
   margin-top: 28px;
 
 }
 
-.div_l_s3 img{
-  display: none;
-}
+
 
 .r_s3_bar, 
 .r_s3_can{
@@ -526,11 +524,13 @@ margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
 }
-.s ec_5_r {
+/*
+.sec_5_r {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px; 
 }
+*/
 
 
 .sec_5_card { 

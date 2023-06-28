@@ -15,9 +15,9 @@ function YourComponent() {
 
   return (
     <div className='sec_3'>
-      <div className='div_l_s3'> 
+      <div classNameName='div_l_s3'> 
         <p>Destinations<br/>populaires</p>
-        <img id="image" src={imageSrc} alt="Image par défaut" />
+        <img className='imgsec3' id="image" src={imageSrc} alt="Image par défaut" />
       </div>
       <div className='div_r_s3'> 
 

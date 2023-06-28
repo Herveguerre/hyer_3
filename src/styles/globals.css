@@ -109,7 +109,10 @@ h2{
   .burger_1{
     margin-top: -160px;
   }
-  .loggo{
+  .HeroContent{
+    margin-left: 0;
+    margin-top: -200px;
+    margin-bottom: 30px;
 
   }
   
@@ -236,8 +239,23 @@ h2{
   display: flex;
 
 }
-@media (max-width:720px) {
-
+@media (max-width:768px) {
+  .d_3{
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .d_4, .d_5 {
+  display: block;
+  }
+  .d_41 :nth-child(2){
+    font-size: 20px;
+  }
+  .d_41 :nth-child(3){
+    font-size: 15px;
+  }
+  .d_5 hr{
+    width: 90%;
+  }
 }
 .d_4 hr{
   width: 70%;
@@ -396,8 +414,6 @@ h2{
   margin: 0  auto ;
   width: 90vw;
   margin-top: 45px;
-  
-  
 }
 .div_r_s3_1{
   display: flex;  
@@ -409,7 +425,6 @@ h2{
 .div_l_s3 p{
   font-size: 50px;
   font-weight: 600;
-  
 }
 .imgsec3{
   width: 100%;
@@ -422,8 +437,6 @@ h2{
   margin-top: 28px;
 
 }
-
-
 
 .r_s3_bar, 
 .r_s3_can{
@@ -455,6 +468,43 @@ h2{
 .div_r_s3P21{
   margin-top: 106px;
   font-size: 20px;
+}
+@media (max-width:768px) {
+  .div_l_s3 p{
+    font-size: 90px;
+  }
+  .sec_3{
+    height: 350px;
+  }
+  .div_l_s3{
+    height: 80px;
+  }
+  .r_s3_bar,
+  .r_s3_ib, 
+  .r_s3_can, 
+  .r_s3_pa{
+    width: 250px;
+    height: 150px;
+    border-top: 1px solid rgba(98, 97, 97, 0.297); 
+    border-bottom: 1px solid rgb(98, 97, 97, 0.297); 
+    border-bottom-right-radius: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .div_r_s3P1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .div_r_s3P2{
+    margin-top: 90px;
+    font-size: 15px;
+  }
+  .div_r_s3P21{
+    margin-top: 65px;
+    font-size: 15px;
+  }
+  
 }
 
 /*gestionnaire de vol */

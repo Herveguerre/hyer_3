@@ -73,7 +73,7 @@
 
 .header{
   display: flex;
-  background-image: url(/img/img_home/téléchargement.png);
+  background-image: url(/public/img/img_home/téléchargement.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover ;
@@ -100,10 +100,7 @@ h2{
 }
 
 @media (max-width:768px) {
-  .header{
-    background-image: url(/public/img/img_home/téléchargement.png);
   
-  }
   .burger, .burger_1 {
     margin-left: 600px;
   }

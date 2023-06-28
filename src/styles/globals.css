@@ -100,6 +100,10 @@ h2{
 }
 
 @media (max-width:768px) {
+  .header{
+    background-image: url(/public/img/img_home/téléchargement.png);
+  
+  }
   .burger, .burger_1 {
     margin-left: 600px;
   }
@@ -422,8 +426,8 @@ h2{
 .div_l_s3{
   height: 100px;
 }
-.div_l_s3 p{
-  font-size: 50px;
+.div_l_s3P{
+  font-size: 10px;
   font-weight: 600;
 }
 .imgsec3{
@@ -470,7 +474,7 @@ h2{
   font-size: 20px;
 }
 @media (max-width:768px) {
-  .div_l_s3 p{
+  .div_l_s3P{
     font-size: 90px;
   }
   .sec_3{
@@ -549,6 +553,24 @@ margin-top: 70px;
   padding: 20px;
   position: absolute;
  
+}
+
+@media (max-width:768px) {
+  .sec4_l{
+    background-size: 50%;
+    height: 400px;
+  }
+  .sec4_r{
+    height: 300px;
+
+  }
+  .sec4_rP1{
+    font-size: 30px;
+  }
+  .sec4_rP2{
+    font-size: 20px;
+  }
+  
 }
 /*experiance hyer */
 .sec_5{

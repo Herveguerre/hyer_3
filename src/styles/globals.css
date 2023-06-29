@@ -580,14 +580,6 @@ margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
 }
-/*
-.sec_5_r {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px; 
-}
-*/
-
 
 .sec_5_card { 
   justify-content: center; 
@@ -599,7 +591,6 @@ margin-top: 70px;
   margin-bottom: 20px;
 }
 .sec_5_cardP2{
-  
   margin-bottom: 50px;
 }
 
@@ -613,7 +604,6 @@ margin-top: 70px;
 .sec5svg svg{
   font-size: 50px;
   margin: 30px;
-  
 }
 .btn_sec_5{
   font-size: 25px;
@@ -633,6 +623,45 @@ margin-top: 70px;
   background-color: var(--clr-5);
   color: var(--clr-4);
   cursor: pointer;
+}
+@media (min-width:768px){
+  .sec5svg{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .sec5svg svg{
+    font-size: 30px;
+    margin: 20px;
+  }
+  .sec_5_r {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+  }
+  .sec_5_content{
+    display: flex;
+  }
+  .sec_5_title p{
+    font-size: 120px;
+  }
+  .sec_5_l p{
+    width: 400px;
+    font-size: 20px;
+    margin-right: 30px;
+  }
+  .sec_5_card{
+    width: 350px;
+  }
+  .sec_5_cardP1{
+    font-size: 20px;
+  }
+  .sec_5_cardP2{
+    font-size: 20px;
+  }
+ 
+
 }
 /*section6*/
 /*caroussel*/
@@ -671,9 +700,12 @@ cursor: pointer;
   .sec_6_img {
     height: 350px;
   }
-  
 }
-
+@media (min-width:768px){
+  .sec_6_img {
+    height: 720px;
+  }
+}
 /*Reserver Un Vol*/
 
 .sec_7{
@@ -731,7 +763,15 @@ cursor: pointer;
   }
   
 }
-
+@media (min-width:768px){
+  .sec_7_content {
+    height: 720px;
+  }
+  .sec_7_txt{
+    width: 100%;
+    text-align: center;
+  }
+}
 
 
 /*aboutSection*/

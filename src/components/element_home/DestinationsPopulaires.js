@@ -43,8 +43,7 @@ function YourComponent() {
             onMouseEnter={() =>
               changeImage("/img/img_home/1620755532-barcelona.jpg")
             }
-            onMouseLeave={resetImage}
-          >
+            onMouseLeave={resetImage}>
             <p className="div_r_s3P1">Barcelone (GRO)</p>
             <p className="div_r_s3P21">Espagne</p>
           </div>
@@ -53,8 +52,7 @@ function YourComponent() {
             onMouseEnter={() =>
               changeImage("/img/img_home/1611590505-ibiza.jpg")
             }
-            onMouseLeave={resetImage}
-          >
+            onMouseLeave={resetImage}>
             <p className="div_r_s3P1">Ibiza (IBZ)</p>
             <p className="div_r_s3P2">Espagne</p>
           </div>
@@ -66,8 +64,7 @@ function YourComponent() {
             onMouseEnter={() =>
               changeImage("/img/img_home/1611759665-cannes.jpg")
             }
-            onMouseLeave={resetImage}
-          >
+            onMouseLeave={resetImage}>
             <p className="div_r_s3P1">Cannes (CEQ)</p>
             <p className="div_r_s3P2">France</p>
           </div>

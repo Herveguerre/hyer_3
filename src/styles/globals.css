@@ -127,7 +127,25 @@ h2{
   
 }
 
-
+@media (min-width:768px) {
+  .nav{
+    display: block;
+    display: flex;
+    color: var(--clr-3);
+    list-style: none;
+    text-decoration: none;
+  }
+  .burgercontainer{
+    display: flex;
+  }
+  .HeroContent{
+    margin-top: -250px;
+    
+  }
+  .header{
+    height: 600px;
+  }
+}
 
 
 
@@ -154,24 +172,7 @@ h2{
   display: flex;
 
 }
-@media (max-width:768px) {
-  .d_3{
-    font-size: 26px;
-    margin-bottom: 50px;
-  }
-  .d_4, .d_5 {
-  display: block;
-  }
-  .d_41 :nth-child(2){
-    font-size: 20px;
-  }
-  .d_41 :nth-child(3){
-    font-size: 15px;
-  }
-  .d_5 hr{
-    width: 90%;
-  }
-}
+
 .d_4 hr{
   width: 70%;
 }
@@ -206,7 +207,34 @@ h2{
   color: var(--clr-5);
   font-size: 26px;
 }
+@media (max-width:768px) {
+  .d_3{
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .d_4, .d_5 {
+  display: block;
+  }
+  .d_41 :nth-child(2){
+    font-size: 20px;
+  }
+  .d_41 :nth-child(3){
+    font-size: 15px;
+  }
+  .d_5 hr{
+    width: 90%;
+  }
+}
 
+@media (min-width:768px){
+  .d_3{
+    width: 70%;
+    font-size: 50px;
+  }
+  .d_2{
+    width: 60%;
+  }
+}
 /*services flexibles*/
 .servicesflexibles{
   
@@ -323,7 +351,14 @@ h2{
   font-weight: 100;
   position: absolute;
 }
-
+@media (min-width:768px){
+  .servicesflexibles{
+    display: flex;
+  }
+  .toutes_les_solutions, .sur_demande, .vols_partages{
+    height: 800px;
+  }
+}
 /*destinations po^pulaires*/
 .sec_3{
   margin: 0  auto ;

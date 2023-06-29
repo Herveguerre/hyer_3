@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="header">
-      
+
       <div className="loggo">
         <p>
           <Link href="/Home">
@@ -61,7 +61,7 @@ export default function Header() {
         </Link>
       </div>
 
-      <div>
+      <div className="burgercontainer">
         <div className="burger_1">&#x2708;</div>
         <div className="burger">
           <div className="line"></div>

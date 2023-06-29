@@ -102,7 +102,8 @@ h2{
 @media (max-width:768px) {
   
   .burger, .burger_1 {
-    margin-left: 600px;
+    margin-left: -600px;
+    display: block;
   }
   .burger{
     margin-top: -130px;
@@ -110,7 +111,19 @@ h2{
   .burger_1{
     margin-top: -160px;
   }
-  
+  .HeroContent{
+    margin-left: -480px;
+
+  }
+  .HeroBtn{
+    margin-right: 10px;
+  }
+  .HeroContent br{
+    display: none;
+  }
+  .header{
+    height: 800px;
+  }
   
 }
 

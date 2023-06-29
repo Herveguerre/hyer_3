@@ -5,6 +5,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="header">
+      
       <div className="loggo">
         <p>
           <Link href="/Home">
@@ -47,6 +48,7 @@ export default function Header() {
           </Link>
         </p>
       </div>
+
       <div className="nav">
         <Link href="/Solutions">
           <li>Solutions</li>
@@ -67,9 +69,9 @@ export default function Header() {
           <div className="line"></div>
         </div>
       </div>
+
       <div className="HeroContent">
         <h2>
-          {" "}
           Avion <br />
           personnalisée
         </h2>
@@ -77,6 +79,7 @@ export default function Header() {
         <button className="HeroBtn">Réserver un avion</button>
         <button className="HeroBtn">Réserver un vol partagé</button>
       </div>
+
     </div>
   );
 }

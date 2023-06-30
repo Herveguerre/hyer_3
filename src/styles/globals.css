@@ -785,6 +785,7 @@ cursor: pointer;
 .about{
   margin-top: 20px;
   margin: 0 auto;
+  
   background-color: var(--clr-6);
 }
 .about_container hr{
@@ -802,7 +803,7 @@ margin-left: 50vw;
   width: 90%;
 }
 .about_content{
-  width:100%;
+  width:90%;
 }
 .about_contentP1{
   font-size: 28px;
@@ -828,22 +829,38 @@ margin-left: 50vw;
   margin: 0 auto;
   width: 90%;
 }
+.fondatrice_1 hr{
+  color: #000;
+  background-color: var(--clr-6);
+}
 .fondatrice_1P1{
   font-size: 28px;
   font-weight: 600;
   padding: 15px 0;
+  
 }
 .fondatrice_1P2{
-
+  margin-bottom: 20px;
+}
+.fondatrice_2, .fondatrice_3{
+  overflow: hidden;
+  margin:0 auto;
+  width: 90%;
 }
 .fondatrice_2 img{
   width: 280px;
-  margin: 20px;
+  margin-top: -30px;
+}
+.fondatrice_1P{
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 .fondatrice_3 img{
   width: 280px;
-  margin: 20px;
+  
   border-bottom-right-radius:50px ;
+  margin-top: -30px;
 }
 
 /*pourquoi hyer*/

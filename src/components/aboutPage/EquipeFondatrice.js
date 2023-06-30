@@ -17,9 +17,9 @@ export default function EquipeFondatrice() {
       </div>
       <div className="fondatrice_2">
         <img src=".\img\img_about\1611760804-helderreis (1).jpg" />
-        <p>Helder Reis</p>
-        <p>Co-fondateur</p>
-        <p>
+        <p className="fondatrice_1P1">Helder Reis</p>
+        <p className="fondatrice_1P">Co-fondateur</p>
+        <p className="fondatrice_1P2">
           Tout au long de sa carrière, Helder a dirigé et façonné la prestation
           de services à la clientèle pour les clients VIP et a amélioré les
           opérations de vols long-courriers et l'efficacité de l'entreprise dans
@@ -28,9 +28,9 @@ export default function EquipeFondatrice() {
       </div>
       <div className="fondatrice_3">
         <img src=".\img\img_about\1611760704-maxvandoorne (1).jpg" />
-        <p>Max van Doorne</p>
-        <p>Co-fondateur</p>
-        <p>
+        <p className="fondatrice_1P1">Max van Doorne</p>
+        <p className="fondatrice_1P">Co-fondateur</p>
+        <p className="fondatrice_1P2">
           Max est un pilote professionnel entièrement certifié avec une
           expérience de vol acquise en Europe, aux États-Unis et dans les
           Caraïbes. Il possède également une solide expertise dans la vente

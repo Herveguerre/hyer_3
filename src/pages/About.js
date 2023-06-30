@@ -1,5 +1,4 @@
 import Footer from '@/components/Footer'
-import Header from '@/components/Header'
 import AboutHeader from '@/components/aboutPage/AboutHeader'
 import AboutSection from '@/components/aboutPage/AboutSection'
 import AvisClients from '@/components/aboutPage/AvisClients'

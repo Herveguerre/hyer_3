@@ -6,13 +6,13 @@ export default function AboutSection() {
       <div className="about_container">
         <hr />
         <div className="about_content">
-          <p>À propos de Hyer®</p>
-          <p>
+          <p className="about_contentP1">À propos de Hyer®</p>
+          <p className="about_contentP2">
             Technologie, connaissance approfondie de l'industrie et approche
             conceptuelle. Quelques raisons pour lesquelles Hyer® perturbe
             l'activité d'affrètement de jets privés. Nous offrons des
             expériences intelligentes, transparentes, personnalisables et
-            surtout inoubliables.{" "}
+            surtout inoubliables.
           </p>
           <buton className="about_btn">
             <svg

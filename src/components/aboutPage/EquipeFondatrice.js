@@ -4,8 +4,8 @@ export default function EquipeFondatrice() {
   return (
     <div className="about flex">
       <div className="fondatrice_1">
-        <p>Équipe fondatrice</p>
-        <p>
+        <p className="fondatrice_1P1">Équipe fondatrice</p>
+        <p className="fondatrice_1P2">
           Hyer® Aviation a été fondée par Max van Doorne et Helder Reis,
           eux-mêmes pilotes d'avion avec des décennies d'expérience dans
           l'industrie aéronautique. Ils ont reconnu que le marché de

@@ -773,50 +773,75 @@ cursor: pointer;
   }
 }
 
-
+/*about page*/
 /*aboutSection*/
-
+.logo_mobil{
+  background-color: var(--clr-6);
+  padding: 20px;
+  
+  display: flex;
+  height: 250px;
+}
 .about{
   margin-top: 20px;
   margin: 0 auto;
   background-color: var(--clr-6);
 }
+.about_container hr{
+  color: #000;
+}
+.imglogoabout{
+margin-left: 50vw;
+}
+.imglogoabout img{
+  width: 50px;
+}
+
 .about_container{
   margin: 0 auto;
-  
-  
+  width: 90%;
 }
 .about_content{
-  width: 40%;
-  
+  width:100%;
+}
+.about_contentP1{
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.about_contentP2{
+  font-size: 18px;
 }
 .about_btn svg{
+  margin: 20px 0;
   width: 30px;
 }
 .about_img1 img{
   border-bottom-right-radius:50px ;
-  width: 80%;
+  width: 100%;
+  height: 200px;
   
 }
 
 /*equipe fondatrice*/
 .fondatrice_1{
-  width: 40%;
+  margin: 0 auto;
+  width: 90%;
 }
-.fondatrice_1 :nth-child(1){
-  font-size: 30px;
+.fondatrice_1P1{
+  font-size: 28px;
   font-weight: 600;
+  padding: 15px 0;
+}
+.fondatrice_1P2{
 
 }
-.fondatrice_1 :nth-child(2){
-  margin-top: 30px;
-}
 .fondatrice_2 img{
-  width: 500px;
+  width: 280px;
   margin: 20px;
 }
 .fondatrice_3 img{
-  width: 500px;
+  width: 280px;
   margin: 20px;
   border-bottom-right-radius:50px ;
 }
@@ -830,7 +855,7 @@ cursor: pointer;
 
 /*avis client*/
 .avis {
-  width: 400px;
+  width: 300px;
 }
 
 /*notre technologie*/

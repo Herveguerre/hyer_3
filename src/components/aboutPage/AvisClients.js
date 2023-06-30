@@ -6,7 +6,7 @@ export default function AvisClients() {
       <hr className="avis_hr" />
       <div className="flex ">
         <div>
-          <p>Ce que disent nos clients</p>
+          <p className="AvisClients">Ce que disent nos clients</p>
         </div>
         <div className="avis">
           <p>

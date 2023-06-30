@@ -785,11 +785,11 @@ cursor: pointer;
 .about{
   margin-top: 20px;
   margin: 0 auto;
-  
   background-color: var(--clr-6);
+  
 }
 .about_container hr{
-  color: #000;
+  color: #000000;
 }
 .imglogoabout{
 margin-left: 50vw;
@@ -858,21 +858,39 @@ margin-left: 50vw;
 }
 .fondatrice_3 img{
   width: 280px;
-  
   border-bottom-right-radius:50px ;
   margin-top: -30px;
 }
 
 /*pourquoi hyer*/
 .about_card {
-  
-  justify-content: end;
+  margin: 0 auto;
+  width: 90%;
 }
-
+.pourquoi{
+  margin: 0 auto;
+  width: 90%;
+}
+.pourquoiP1{
+  font-size: 30px;
+  font-weight: 600;
+}
+.sec_5_cardP1{
+  margin: 20px 0;
+  font-size: 20px;
+}
+.sec_5_cardP2{
+  font-size: 18px;
+}
 
 /*avis client*/
 .avis {
   width: 300px;
+}
+.AvisClients{
+  font-size: 30px;
+  font-weight: 600;
+
 }
 
 /*notre technologie*/
@@ -977,4 +995,5 @@ margin-left: 50vw;
 .fontW{
   font-weight: 700;
   color: var(--clr-4);
+  
 }

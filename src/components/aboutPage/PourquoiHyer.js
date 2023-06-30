@@ -3,10 +3,11 @@ import React from "react";
 export default function PourquoiHyer() {
   return (
     <div className="about flex">
-      <hr />
-      <div>
-        <p>Pourquoi Hyer®</p>
+      
+      <div className="pourquoi">
+        <p className="pourquoiP1">Pourquoi Hyer®</p>
       </div>
+
       <div className="about_card flex wrap">
         <div className="sec_5_card">
           <div className="sec5svg">
@@ -73,8 +74,8 @@ export default function PourquoiHyer() {
               ></rect>
             </svg>
           </div>
-          <p>Adhésion de récompense</p>
-          <p>
+          <p className="sec_5_cardP1">Adhésion de récompense</p>
+          <p className="sec_5_cardP2">
             Profitez des avantages d'une carte jet ou d'un programme de
             copropriété d'avion, sans les lourds engagements financiers.{" "}
           </p>

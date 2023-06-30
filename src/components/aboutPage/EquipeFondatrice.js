@@ -37,7 +37,7 @@ export default function EquipeFondatrice() {
           d'avions privés sur le marché européen.
         </p>
       </div>
-      <hr />
+      <hr/>
     </div>
   );
 }

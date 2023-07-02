@@ -890,7 +890,16 @@ margin-left: 50vw;
 .AvisClients{
   font-size: 30px;
   font-weight: 600;
-
+  margin: 0 auto;
+  width: 90%;
+}
+.avis{
+  margin: 0 auto;
+  width: 90%;
+}
+.avis p{
+  
+  margin: 50px 0;
 }
 
 /*notre technologie*/

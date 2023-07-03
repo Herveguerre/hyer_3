@@ -13,7 +13,14 @@
   box-sizing: border-box;
 }
 
-
+.fontww{
+  font-weight: 700;
+  color: var(--clr-4);
+}
+.fontwb{
+  font-weight: 700;
+  color: var(--clr-2);
+}
 
 /*header*/
 
@@ -884,8 +891,16 @@ margin-left: 50vw;
 }
 
 /*avis client*/
+.Avis{
+  background-color: var(--clr-6);
+}
+.Avis hr{
+  color: #ffffff;
+  
+}
 .avis {
   width: 300px;
+  background-color: var(--clr-6);
 }
 .AvisClients{
   font-size: 30px;
@@ -899,12 +914,33 @@ margin-left: 50vw;
 }
 .avis p{
   
-  margin: 50px 0;
+  margin: 50px 30px;
 }
 
 /*notre technologie*/
 
+.notretecho{
+  
+}
+.notretechoTitle{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.notretechoDiv{
+  width: 80%;
+  margin:  0 auto;
+  margin-top: 30px;
+}
+.notretechoimg img{
+  width: 100%;
+  
 
+}
+.notretechoP{
+
+}
 /*footer*/
 
 .svg_rs{
@@ -1001,8 +1037,3 @@ margin-left: 50vw;
   margin-bottom: 65px;
 }
 
-.fontW{
-  font-weight: 700;
-  color: var(--clr-4);
-  
-}

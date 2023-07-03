@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AvisClients() {
   return (
-    <div className="about ">
+    <div className="Avis ">
       <hr className="avis_hr" />
       <div className="flex ">
         <div>
@@ -20,7 +20,7 @@ export default function AvisClients() {
           <p>
             Je vole avec Hyer en tant que membre ELEVATE depuis un certain temps
             maintenant, après avoir été un client Netjets insatisfait.
-            <br /> Nicolas
+            <br />~ Nicolas
           </p>
         </div>
 
@@ -30,7 +30,7 @@ export default function AvisClients() {
             leur charte et a conduit nos 50 invités en toute sécurité à
             l'aéroport de Naples.
             <br />
-            Marque
+            ~ Marque
           </p>
         </div>
       </div>

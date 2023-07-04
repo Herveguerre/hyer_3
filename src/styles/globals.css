@@ -933,14 +933,21 @@ margin-left: 50vw;
   margin:  0 auto;
   margin-top: 30px;
 }
+.notretechoimg{
+  overflow: hidden;
+}
+.notretechoP{
+  width: 80%;
+  margin:  0 auto;
+  margin-top: 30px;
+}
 .notretechoimg img{
   width: 100%;
   
+  transform: scale(1.5);
 
 }
-.notretechoP{
 
-}
 /*footer*/
 
 .svg_rs{

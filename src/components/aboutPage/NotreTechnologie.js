@@ -49,10 +49,10 @@ export default function NotreTechnologie() {
         </p>
       </div>
 
-      <hr />
+      <hr/>
       <div className="notretechoimg">
         <p>Nous croyons que dans un monde qui fait de vous un numéro, nous sommes en mesure d'utiliser la technologie pour vous offrir un service personnalisé inégalé.</p>
-        <img src=".\img\img_about\1630882773-young-woman-on-a-plane.avif" alt=""/>
+        <img src=".\img\img_about\1630882773-young-woman-on-a-plane.avif" alt="personnel"/>
       </div>
     </div>
   );

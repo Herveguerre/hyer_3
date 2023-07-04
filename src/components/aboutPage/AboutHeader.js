@@ -16,7 +16,7 @@ export default function AboutHeader() {
 
       </div>
 
-      <div className="nav">
+      <div className="about_nav">
         <Link href="/index">home</Link>
         <Link href="/Solutions">
           <li>Solutions</li>

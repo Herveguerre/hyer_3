@@ -868,6 +868,12 @@ margin-left: 50vw;
   border-bottom-right-radius:50px ;
   margin-top: -30px;
 }
+@media (max-width:768px){
+  .fondatrice_2 img,
+  .fondatrice_3 img{
+    width: 700px;
+  }
+}
 
 /*pourquoi hyer*/
 .about_card {
@@ -877,6 +883,7 @@ margin-left: 50vw;
 .pourquoi{
   margin: 0 auto;
   width: 90%;
+  padding-top: 20px;
 }
 .pourquoiP1{
   font-size: 30px;
@@ -889,7 +896,11 @@ margin-left: 50vw;
 .sec_5_cardP2{
   font-size: 18px;
 }
-
+@media (max-width:768px){
+  .sec_5_card{
+    width: 90%;
+  }
+}
 /*avis client*/
 .Avis{
   background-color: var(--clr-6);
@@ -919,9 +930,7 @@ margin-left: 50vw;
 
 /*notre technologie*/
 
-.notretecho{
-  
-}
+
 .notretechoTitle{
   padding-top: 20px;
   text-align: center;

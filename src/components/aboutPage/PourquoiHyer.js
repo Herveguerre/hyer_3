@@ -3,7 +3,6 @@ import React from "react";
 export default function PourquoiHyer() {
   return (
     <div className="about flex">
-      
       <div className="pourquoi">
         <p className="pourquoiP1">Pourquoi Hyer®</p>
       </div>

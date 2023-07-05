@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="header">
+    <div className="header"><video src="\public\img\img_home\Enregistrement 2023-07-05 112430.mp4" autoplay loop></video>
 
       <div className="loggo">
         <p>
-          <Link href="/index">
+          <Link href="/Home">
             <svg
               viewBox="0 0 116 45"
               fill="none"

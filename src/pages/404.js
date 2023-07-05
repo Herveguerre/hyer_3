@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function nofound() {
   return (
-    <div>404
-
-<Link href="/Home">home</Link>
+    <div>
+      <h2>404</h2>
     </div>
-  )
+  );
 }

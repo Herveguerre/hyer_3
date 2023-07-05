@@ -80,7 +80,7 @@
 
 .header{
   display: flex;
-  background-image: url(/public/img/img_home/téléchargement.png);
+  background-image: url(/img/img_home/hero.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover ;

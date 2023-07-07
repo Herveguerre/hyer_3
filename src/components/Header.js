@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="header"><video src="\public\img\img_home\Enregistrement 2023-07-05 112430.mp4" autoplay loop></video>
+    <div className="header">
 
       <div className="loggo">
         <p>

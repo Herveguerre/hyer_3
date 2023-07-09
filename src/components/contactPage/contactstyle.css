@@ -69,3 +69,14 @@
 .ContactezNous_form {
   width: 500px;
 }
+label{
+    
+}
+input{
+    border-color:#fff ;
+    box-shadow: #fff ;
+}
+textarea{
+    border-color:#fff ;
+    box-shadow: #fff ;
+}

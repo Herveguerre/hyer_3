@@ -57,7 +57,7 @@ export default function ContactezNous() {
               <textarea id="message" required></textarea>
             </div>
 
-            <button type="submit">Envoyer</button>
+            <button  type="submit">Envoyer</button>
           </form>
         </div>
       </div>

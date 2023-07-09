@@ -1,5 +1,5 @@
 .ContacterHyer {
-    margin:  0 auto;
+  margin: 0 auto;
 }
 .Contact_L {
   width: 500px;
@@ -34,18 +34,38 @@
   font-size: 50px;
   margin: 30px;
 }
-.Contact_img{
-    width: 90%;
-    
+.Contact_img {
+  width: 90%;
 }
-.Contact_img img{
-    width: 600px;
-    justify-content: end;
+.Contact_img img {
+  width: 600px;
+  justify-content: end;
 }
-.contact_hr{
-    margin: 0 auto;
-    width: 90%;
-    height: 2px;
-    background-color:black;
-    
+.contact_hr {
+  margin: 0 auto;
+  width: 90%;
+  height: 1px;
+  background-color: black;
+}
+
+
+
+/*contactez-nous*/
+
+.ContactezNous {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+}
+.ContactezNous_container {
+}
+
+.ContactezNous_title {
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.ContactezNous_form {
+  width: 500px;
 }

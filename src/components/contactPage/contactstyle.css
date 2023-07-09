@@ -1,0 +1,51 @@
+.ContacterHyer {
+    margin:  0 auto;
+}
+.Contact_L {
+  width: 500px;
+  display: flex;
+}
+.Contact_R {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec_Contact_card {
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 500px;
+}
+.sec_Contact_cardP1 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.sec_Contact_cardP2 {
+  margin-bottom: 50px;
+}
+
+.secContactsvg {
+  border: 2px dashed rgb(75, 75, 75);
+  border-bottom-right-radius: 30px;
+  width: 130px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.secContactsvg svg {
+  font-size: 50px;
+  margin: 30px;
+}
+.Contact_img{
+    width: 90%;
+    
+}
+.Contact_img img{
+    width: 600px;
+    justify-content: end;
+}
+.contact_hr{
+    margin: 0 auto;
+    width: 90%;
+    height: 2px;
+    background-color:black;
+    
+}

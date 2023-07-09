@@ -1,11 +1,11 @@
 :root {
   font-family: "HelveticaNowDisplay", sans-serif;
-  --clr-1:#BC7155;
-  --clr-2:#151623;
-  --clr-3:#000D10 ;
-  --clr-4:#fff;
-  --clr-5:#8E8E95;
-  --clr-6:#8AADB2;
+  --clr-1: #bc7155;
+  --clr-2: #151623;
+  --clr-3: #000d10;
+  --clr-4: #fff;
+  --clr-5: #8e8e95;
+  --clr-6: #8aadb2;
 }
 * {
   margin: 0;
@@ -13,11 +13,11 @@
   box-sizing: border-box;
 }
 
-.fontww{
+.fontww {
   font-weight: 700;
   color: var(--clr-4);
 }
-.fontwb{
+.fontwb {
   font-weight: 700;
   color: var(--clr-2);
 }

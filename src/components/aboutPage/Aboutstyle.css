@@ -1,231 +1,224 @@
 /*about page*/
 /*aboutSection*/
-.logo_mobil{
-    background-color: var(--clr-6);
-    padding: 20px;
-    
-    display: flex;
-    height: 250px;
-  }
-  .about_nav{
-    display: flex;
-    background-color: var(--clr-6);
-  }
-  .about{
-    margin-top: 20px;
-    margin: 0 auto;
-    background-color: var(--clr-6);
-    
-  }
-  .about_container hr{
-    color: #000000;
-  }
-  .imglogoabout{
+.logo_mobil {
+  background-color: var(--clr-6);
+  padding: 20px;
+
+  display: flex;
+  height: 250px;
+}
+.about_nav {
+  display: flex;
+  background-color: var(--clr-6);
+}
+.about {
+  margin-top: 20px;
+  margin: 0 auto;
+  background-color: var(--clr-6);
+}
+.about_container hr {
+  color: #000000;
+}
+.imglogoabout {
   margin-left: 50vw;
+}
+.imglogoabout img {
+  width: 50px;
+}
+
+.about_container {
+  margin: 0 auto;
+  width: 90%;
+}
+.about_content {
+  width: 90%;
+}
+.about_contentP1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.about_contentP2 {
+  font-size: 18px;
+}
+.about_btn svg {
+  margin: 20px 0;
+  width: 30px;
+}
+.about_img1 img {
+  border-bottom-right-radius: 50px;
+  width: 100%;
+  height: 200px;
+}
+@media (max-width: 768px) {
+  .about_img1 img {
+    height: 400px;
   }
-  .imglogoabout img{
-    width: 50px;
+  .about_nav {
+    display: none;
   }
-  
-  .about_container{
-    margin: 0 auto;
-    width: 90%;
+  .imglogoabout {
+    margin-left: 80%;
   }
-  .about_content{
-    width:90%;
-  }
-  .about_contentP1{
-    font-size: 28px;
-    font-weight: 600;
-    margin: 20px 0;
-  }
-  .about_contentP2{
-    font-size: 18px;
-  }
-  .about_btn svg{
-    margin: 20px 0;
-    width: 30px;
-  }
-  .about_img1 img{
-    border-bottom-right-radius:50px ;
-    width: 100%;
-    height: 200px;
-  }
-  @media (max-width:768px){
-    .about_img1 img{
-      height: 400px;
-    }
-    .about_nav{
-      display: none;
-  
-    }
-    .imglogoabout{
-      margin-left: 80%;
-    }
-  }
-  @media (min-width:1440px){
-    .about_img1 img{
-      height: 700px;
-      display: flex;
-    }
-    .about_nav{
-      display: block;
-      display: flex;
-      gap: 20px;
-  
-    }
-    .imglogoabout{
-      margin-left: 90%;
-      display: flex;
-      height: 50px;
-      gap: 10px;
-    }
-  }
-  
-  /*equipe fondatrice*/
-  .fondatrice_1{
-    margin: 0 auto;
-    width: 90%;
-  }
-  .about hr{
-    color: #000;
-    background-color: var(--clr-6);
-  }
-  .fondatrice_1P1{
-    font-size: 28px;
-    font-weight: 600;
-    padding: 15px 0;
-    
-  }
-  .fondatrice_1P2{
-    margin-bottom: 20px;
-  }
-  .fondatrice_2, .fondatrice_3{
-    overflow: hidden;
-    margin:0 auto;
-    width: 90%;
-  }
-  .fondatrice_2 img{
-    width: 280px;
-    margin-top: -30px;
-  }
-  .fondatrice_1P{
-    margin-top: -20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-  }
-  .fondatrice_3 img{
-    width: 280px;
-    border-bottom-right-radius:50px ;
-    margin-top: -30px;
-  }
-  @media (min-width:768px){
-    .fondatrice_2 img,
-    .fondatrice_3 img{
-      width: 700px;
-    }
-  }
-  
-  /*pourquoi hyer*/
-  .about_card {
-    margin: 0 auto;
-    width: 90%;
-  }
-  .pourquoi{
-    margin: 0 auto;
-    width: 90%;
-    padding-top: 20px;
-  }
-  .pourquoiP1{
-    font-size: 30px;
-    font-weight: 600;
-  }
-  .sec_5_cardP1{
-    margin: 20px 0;
-    font-size: 20px;
-  }
-  .sec_5_cardP2{
-    font-size: 18px;
-  }
-  @media (min-width:768px){
-    .sec_5_card{
-      width: 90%;
-    }
-  }
-  /*avis client*/
-  .Avis{
-    background-color: var(--clr-6);
-  }
-  .Avis hr{
-    color: #ffffff;
-    
-  }
-  .avis {
-    width: 300px;
-    background-color: var(--clr-6);
-  }
-  .AvisClients{
-    font-size: 30px;
-    font-weight: 600;
-    margin: 0 auto;
-    width: 90%;
-  }
-  .avis{
-    margin: 0 auto;
-    width: 90%;
-  }
-  .avis p{
-    
-    margin: 50px 30px;
-  }
-  
-  /*notre technologie*/
-  
-  
-  .notretechoTitle{
-    padding-top: 20px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-  }
-  .notretechoDiv{
-    width: 80%;
-    margin:  0 auto;
-    margin-top: 30px;
-  }
-  .notretechoimg{
-    overflow: hidden;
-  }
-  .notretechoP{
-    width: 90%;
-    margin:  0 auto;
-    font-size: 20px;
-  }
-  .notretechoimg img{
-    width: 100%;
-    
-    /* transform: scale(1.5); */
-  
-  }
-  .notretechoimg p{
-    padding: 20px 20px;
-    width: 90%;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 600;
-  }
-  @media (min-width:1440px){
-  .notretechoimg{
+}
+@media (min-width: 1440px) {
+  .about_img1 img {
+    height: 700px;
     display: flex;
   }
-  .notretechoimg img{
+  .about_nav {
+    display: block;
+    display: flex;
+    gap: 20px;
+  }
+  .imglogoabout {
+    margin-left: 90%;
+    display: flex;
+    height: 50px;
+    gap: 10px;
+  }
+}
+
+/*equipe fondatrice*/
+.fondatrice_1 {
+  margin: 0 auto;
+  width: 90%;
+}
+.about hr {
+  color: #000;
+  background-color: var(--clr-6);
+}
+.fondatrice_1P1 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+.fondatrice_1P2 {
+  margin-bottom: 20px;
+}
+.fondatrice_2,
+.fondatrice_3 {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+}
+.fondatrice_2 img {
+  width: 280px;
+  margin-top: -30px;
+}
+.fondatrice_1P {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.fondatrice_3 img {
+  width: 280px;
+  border-bottom-right-radius: 50px;
+  margin-top: -30px;
+}
+@media (min-width: 768px) {
+  .fondatrice_2 img,
+  .fondatrice_3 img {
+    width: 700px;
+  }
+}
+
+/*pourquoi hyer*/
+.about_card {
+  margin: 0 auto;
+  width: 90%;
+}
+.pourquoi {
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 20px;
+}
+.pourquoiP1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.sec_5_cardP1 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.sec_5_cardP2 {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .sec_5_card {
+    width: 90%;
+  }
+}
+/*avis client*/
+.Avis {
+  background-color: var(--clr-6);
+}
+.Avis hr {
+  color: #ffffff;
+}
+.avis {
+  width: 300px;
+  background-color: var(--clr-6);
+}
+.AvisClients {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 auto;
+  width: 90%;
+}
+.avis {
+  margin: 0 auto;
+  width: 90%;
+}
+.avis p {
+  margin: 50px 30px;
+}
+
+/*notre technologie*/
+
+.notretechoTitle {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.notretechoDiv {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.notretechoimg {
+  overflow: hidden;
+}
+.notretechoP {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.notretechoimg img {
+  width: 100%;
+
+  /* transform: scale(1.5); */
+}
+.notretechoimg p {
+  padding: 20px 20px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (min-width: 1440px) {
+  .notretechoimg {
+    display: flex;
+  }
+  .notretechoimg img {
     width: 50%;
   }
-  .notretechoimg p{
+  .notretechoimg p {
     padding: 50px 20px;
     width: 50%;
     margin: 0 auto;
     font-size: 40px;
     font-weight: 600;
   }
-  }
+}

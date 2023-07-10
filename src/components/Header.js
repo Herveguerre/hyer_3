@@ -5,7 +5,6 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="header">
-
       <div className="loggo">
         <p>
           <Link href="/Home">
@@ -79,7 +78,6 @@ export default function Header() {
         <button className="HeroBtn">Réserver un avion</button>
         <button className="HeroBtn">Réserver un vol partagé</button>
       </div>
-
     </div>
   );
 }

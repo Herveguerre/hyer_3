@@ -33,31 +33,31 @@ export default function ContactezNous() {
                 type="text"
                 id="name"
                
-                required
+                required placeholder="Nom"
               />
             </div>
 
             <div>
-              <label htmlFor="email">Adresse e-mail :</label>
-              <input type="email" id="email" required />
+              <label htmlFor="email"> Courriel</label>
+              <input type="email" id="email" required placeholder="Adresse e-mail" />
             </div>
 
             <div>
-              <label htmlFor="phone">Numéro de téléphone :</label>
-              <input type="tel" id="phone" required />
+              <label htmlFor="phone">Numéro de téléphone*</label>
+              <input type="tel" id="phone" required placeholder="+31" />
             </div>
 
             <div>
-              <label htmlFor="subject">Sujet :</label>
-              <input type="text" id="subject" required />
+              <label htmlFor="subject">Sujet </label>
+              <input type="text" id="subject" required placeholder="Sujet" />
             </div>
 
             <div>
-              <label htmlFor="message">Message :</label>
-              <textarea id="message" required></textarea>
+              <label htmlFor="message">Message </label>
+              <textarea id="message" required placeholder="Ecrivez ici.."></textarea>
             </div>
 
-            <button  type="submit">Envoyer</button>
+            <button  type="submit">Envoyer le message</button>
           </form>
         </div>
       </div>

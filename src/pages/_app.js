@@ -4,6 +4,7 @@ import '@/components/element_home/homestyle.css'
 import '@/components/header_footer.css'
 import '@/components/contactPage/contactstyle.css'
 import '@/components/solutionPage/Solutions_style.css'
+import '@/components/onDemandePage/ondemande.css'
 
 
 export default function App({ Component, pageProps }) {

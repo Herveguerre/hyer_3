@@ -7,7 +7,7 @@ export default function Header() {
     <div className="header">
       <div className="loggo">
         <p>
-          <Link href="/Home">
+          <Link href="/">
             <svg
               viewBox="0 0 116 45"
               fill="none"
@@ -54,6 +54,9 @@ export default function Header() {
         </Link>
         <Link href="/About">
           <li>A propos de nous</li>
+        </Link>
+        <Link href="/OnDemande">
+          <li>sur demande</li>
         </Link>
         <Link href="/Contact">
           <li>Contact</li>

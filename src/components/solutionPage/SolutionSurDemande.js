@@ -19,13 +19,13 @@ export default function SolutionSurDemande() {
       <div className="solutionsurdemande_charte">
         <div className="solutionsurdemande_content">
           <img src="/img/img_solutions/prive.jpg" alt="vol privée"/>
-          <p>Charte privée</p>
-          <p>Votre avion est prêt quand vous l'êtes.</p>
+          <p className="solutionsurdemande_contentP1">Charte privée</p>
+          <p className="solutionsurdemande_contentP2">Votre avion est prêt quand vous l'êtes.</p>
         </div>
         <div className="solutionsurdemande_content">
           <img src="/img/img_solutions/groupe.jpg" alt="vol en groupe"/>
-          <p>Charte du Groupe</p>
-          <p>À venir</p>
+          <p className="solutionsurdemande_contentP1">Charte du Groupe</p>
+          <p className="solutionsurdemande_contentP2">À venir</p>
         </div>
       </div>
       <div className="solution_hr"></div>

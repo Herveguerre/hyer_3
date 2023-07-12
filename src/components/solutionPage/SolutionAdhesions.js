@@ -17,16 +17,18 @@ export default function SolutionAdhesions() {
       <div className="solutionsurdemande_charte">
         <div className="solutionsurdemande_content">
           <img src="/img/img_solutions/elever.jpg" alt="vol privée"/>
-          <p>Charte privée</p>
-          <p>Votre avion est prêt quand vous l'êtes.</p>
+          <p className="solutionsurdemande_contentP1">Élever</p>
+          <p className="solutionsurdemande_contentP2">Services, contrôle et récompenses améliorés
+
+</p>
         </div>
         <div className="solutionsurdemande_content">
           <img src="/img/img_solutions/altitude.jpg" alt="vol en groupe"/>
-          <p>Charte du Groupe</p>
-          <p>À venir</p>
+          <p className="solutionsurdemande_contentP1">Altitude Hyer®</p>
+          <p className="solutionsurdemande_contentP2">À venir</p>
         </div>
       </div>
-      <div className="solution_hr"></div>
+      <div className="solution_hr_end"></div>
     </div>
   )
 }

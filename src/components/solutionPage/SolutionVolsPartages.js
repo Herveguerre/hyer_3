@@ -17,13 +17,13 @@ export default function SolutionVolsPartages() {
       <div className="solutionsurdemande_charte">
         <div className="solutionsurdemande_content">
           <img src="/img/img_solutions/disponibles.jpg" alt="vol privée"/>
-          <p>Charte privée</p>
-          <p>Votre avion est prêt quand vous l'êtes.</p>
+          <p className="solutionsurdemande_contentP1">Vols disponibles</p>
+          <p className="solutionsurdemande_contentP2">Participez à un vol partagé.</p>
         </div>
         <div className="solutionsurdemande_content">
           <img src="/img/img_solutions/parcours.jpg" alt="vol en groupe"/>
-          <p>Charte du Groupe</p>
-          <p>À venir</p>
+          <p className="solutionsurdemande_contentP1">Propose a route</p>
+          <p className="solutionsurdemande_contentP2">Commencez votre vol partagé.</p>
         </div>
       </div>
       <div className="solution_hr"></div>

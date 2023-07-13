@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 export default function HeaderOn() {
   return (
@@ -69,12 +69,13 @@ export default function HeaderOn() {
       </div>
 
       <div className="HeroContenton">
-      <h2>Sur demande</h2>
-        <p className="HeroPon">Réservez facilement votre avion. Volez à tout moment...</p>
-        
+        <p className="HeroPon">
+          Réservez facilement votre avion. Volez à tout moment...
+        </p>
+        <p className="HeroPon2">Sur demande</p>
+
         <button className="HeroBtnon">I</button>
-        
       </div>
     </div>
-  )
+  );
 }

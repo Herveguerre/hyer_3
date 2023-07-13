@@ -26,7 +26,7 @@ export default function CarouselOn() {
   // Rendu du composant Carousel
   return (
     <div>
-      <div className="sec_6_img">
+      <div className="sec_6_img bgcarouselOn">
         {/* Bouton qui déclenche la fonction nextImage lorsqu'il est cliqué */}
         {/* Affichage de l'image courante en utilisant la valeur de currentImage comme index pour accéder à l'élément correspondant dans le tableau images */}
         <button className="carousel-button right" onClick={nextImage}>

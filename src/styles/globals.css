@@ -12,7 +12,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.font30{
+  font-size: 30px;
+}
+.font20{
+  font-size: 20px;
+}
 .fontww {
   font-weight: 700;
   color: var(--clr-4);

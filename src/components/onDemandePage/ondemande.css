@@ -294,36 +294,127 @@ li {
   margin: 0 auto;
   height: 250px;
   max-width: 1300px;
-  
 }
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .bgcarouselOn img {
     height: 550px;
   }
   .expOncard {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
   }
   .expOncard1 {
     width: 450px;
     margin-right: 20px;
   }
-  .bg_soyezrecompense{
-    display: flex;
-  }
-  .expOnTitle2{
+
+  .expOnTitle2 {
     width: 400px;
   }
 }
+@media (min-width: 768px) {
+  .bg_soyezrecompense {
+    display: flex;
+  }
+  .expOncard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
 /* sur demande*/
-.bg_surdemande{
+.bg_surdemande {
   margin: 0 auto;
   width: 90%;
   max-width: 1440px;
 }
-.surdemandecard img{
-  width:280px;
-  
+.surdemandetitle{
+  font-size: 30px;
+  margin: 20px 0;
+}
+.surdemandecard {
+  width: 300px;
+  overflow: hidden;
+}
 
+.surdemandecard img {
+  height: 400px;
+}
+.surdemandecard :nth-child(2) {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.surdemandecard :nth-child(3) {
+  color: var(--clr-5);
+  margin: 20px 0;
+}
+@media (min-width: 769px) {
+  .surdemandecard {
+    width: 760px;
+  }
+  .bg_surdemande {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .surdemande {
+    display: flex;
+  }
+}
+
+.NosClientsApprecientOn {
+  background-color: var(--clr-7);
+}
+.NosClientsAppcontainer {
+  width: 90%;
+  max-width: 1440px;
+}
+.NosClientsApptitle {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.NosClientsAppbox {
+  width: 280px;
+  border-top: solid 1px #000;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.NosClientsAppbox :nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*destination populaire */
+
+/*covid-19*/
+.covidcontainer{
+  height: 200px;
+}
+.covidcard {
+  width: 100%;
+  /* height: 50px; */
+  border-top: solid 1px #000;
+  cursor: pointer;
+}
+.none {
+  padding: 20px;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.voirplus:hover ~ .none {
+  display: block;
+  padding-bottom: 0px;
+}
+.voirplus:hover ~ .block {
+  display: none;
+  
+}
+
+.voirplus{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

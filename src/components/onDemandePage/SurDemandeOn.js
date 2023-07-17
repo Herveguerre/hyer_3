@@ -4,11 +4,11 @@ export default function SurDemandeOn() {
   return (
     <div className='bg_surdemande'>
 
-      <div>
+      <div className='surdemandetitle'>
         <p>Sur demande</p>
       </div>
       
-      <div>
+      <div className='surdemande'>
 
       <div className='surdemandecard'>
         <img src='/img/img_solutions/prive.jpg' alt=''/>

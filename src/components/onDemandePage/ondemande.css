@@ -365,13 +365,15 @@ li {
 
 .NosClientsApprecientOn {
   background-color: var(--clr-7);
+  border-bottom-right-radius: 70px;
 }
 .NosClientsAppcontainer {
   width: 90%;
   max-width: 1440px;
 }
 .NosClientsApptitle {
-  font-size: 30px;
+  font-size: 50px;
+  font-weight: 600;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -380,10 +382,16 @@ li {
   border-top: solid 1px #000;
   margin-right: 20px;
   margin-bottom: 30px;
+  
 }
 .NosClientsAppbox :nth-child(1) {
-  font-size: 20px;
+  margin-top: 30px;
+  font-size: 40px;
   font-weight: 600;
+}
+.NosClientsAppbox :nth-child(2){
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 /*destination populaire */

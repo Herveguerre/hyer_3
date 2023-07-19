@@ -1,0 +1,22 @@
+/*header*/
+.headerpartage {
+  display: flex;
+  background-image: url(/img/img_Propose_a_Flight/hero.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 1200px;
+  position: relative;
+  z-index: -1;
+}
+.headerpartage::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Couleur semi-transparente noire */
+}
+/*header*/

@@ -17,6 +17,37 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3); /* Couleur semi-transparente noire */
+  background-color: #0000004d; /* Couleur semi-transparente noire */
 }
 /*header*/
+/*Derniervolsajoutes*/
+.bg_derniervols{
+
+  background-color: var(--clr-7);
+}
+.tetetableau{
+  justify-content: space-between;
+  padding: 10px;
+}
+.derniervols{
+  padding: 10px;
+  background-color: var(--clr-3);
+  color: var(--clr-4);
+  border-radius: 20px;
+}
+.noir {
+  background-color: #000000;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+}
+.gris{
+  background-color: #bbbbbb;
+  justify-content: space-between;
+  padding: 20px;
+  width: 70%;
+}
+.w{
+  width: 400px;
+}
+/*Derniervolsajoutes*/

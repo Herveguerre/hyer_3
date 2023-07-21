@@ -6,20 +6,20 @@
   --clr-4: #fff;
   --clr-5: #8e8e95;
   --clr-6: #8aadb2;
-  --clr-7: #F0F0F0;
+  --clr-7: #f0f0f0;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.flex{
+.flex {
   display: flex;
 }
-.font30{
+.font30 {
   font-size: 30px;
 }
-.font20{
+.font20 {
   font-size: 20px;
 }
 .fontww {
@@ -30,12 +30,29 @@
   font-weight: 700;
   color: var(--clr-2);
 }
-.marge{
+.marge {
   margin: 0 auto;
 }
-.space{
+.space {
   justify-content: space-between;
 }
-.w1440{
+.w1440 {
   max-width: 1440px;
+}
+.burger{
+  cursor: pointer;
+}
+
+.menu{
+   display: none; 
+  width: 50vw;
+  height: 20vw;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0; /* Position en haut de l'écran */
+  right: 0; /* Position à droite de l'écran */
+  z-index: 999999;
+}
+.burger:hover .menu {
+  display: block;
 }

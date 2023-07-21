@@ -50,4 +50,16 @@
 .w{
   width: 400px;
 }
+.bgw{
+  background-color: #ffffff;
+  padding: 10px;
+}
+.bgw p{
+  padding: 5px;
+}
+
+.bgbleu{
+  background-color: var(--clr-7);
+  padding: 10px;
+}
 /*Derniervolsajoutes*/

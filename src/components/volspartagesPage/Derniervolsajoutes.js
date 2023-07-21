@@ -24,19 +24,19 @@ export default function Derniervolsajoutes() {
           </div>
 
           <div className="flex">
-            <div className="w">
+            <div className="w bgw">
               <p>Depuis</p>
               <p>Farnborough , GB</p>
-              <div className="flex">
-                <p>12/09/2022</p>
-                <p>09h30 GMT+1</p>{" "}
+              <div className="flex ">
+                <p className="bgbleu">12/09/2022</p>
+                <p className="bgbleu">09h30 GMT+1</p>{" "}
               </div>
-              <p>Aéroport de Farnborough</p>
+              <p className="bgbleu">Aéroport de Farnborough</p>
             </div>
-            <div>
+            <div className="bgw">
               <p>Pour</p>
               <p>Sion , CH</p>
-              <p>Aéroport de Sion</p>
+              <p className="bgbleu">Aéroport de Sion</p>
             </div>
 
             <div></div>

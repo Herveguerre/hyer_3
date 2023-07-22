@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 //import React, { useState } from 'react';
 
-
 // import Link from "next/link";
 // const MainComponent = () => {
 //   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -75,12 +74,42 @@ export default function Header() {
       <div className="burgercontainer">
         <div className="burger_1">&#x2708;</div>
 
-        <div className="burger onClick={handleBurgerClick}">
-          <onclick>
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
-          </onclick>
+        <div className="burger">
+          {" "}
+          {/* onClick={handleBurgerClick} */}
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="menu1">
+            <div> </div>
+            <div className=" menu2 flex">
+              <div className="menubox">
+                <p>surdemande</p>
+                <p>charte privé</p>
+              </div>
+              <div className="menubox">
+                <p>vols partagés</p>
+                <p>vols disponibles</p>
+                <p>proposer un vol</p>
+              </div>
+            </div>
+            <div className="menu3 flex">
+              <div className="menubox">
+                <p>Adhésions</p>
+                <p>Élever</p>
+                <p>Hyer® Altitude</p>
+              </div>
+              <div className="menubox">
+                <p>Entreprise</p>
+                <p>À propos de nous</p>
+                <Link href="/Solutions">
+          <p>Solutions</p>
+        </Link>
+                <p>Nouvelles</p>
+                <p>Contact</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* <Menu isOpen={isMenuOpen} /> */}
@@ -92,34 +121,6 @@ export default function Header() {
         <p className="HeroP">Plus de flexibilité, de liberté et de choix !</p>
         <button className="HeroBtn">Réserver un avion</button>
         <button className="HeroBtn">Réserver un vol partagé</button>
-      </div>
-      <div className="menu">
-        <div> boutons</div>
-        <div className="flex">
-          <div>
-            <p>surdemande</p>
-            <p>charte privé</p>
-          </div>
-          <div>
-            <p>vols partagés</p>
-            <p>vols disponibles</p>
-            <p>proposer un vol</p>
-          </div>
-        </div>
-        <div className="flex">
-          <div>
-            <p>Adhésions</p>
-            <p>Élever</p>
-            <p>Hyer® Altitude</p>
-          </div>
-          <div>
-            <p>Entreprise</p>
-            <p>À propos de nous</p>
-            <p>Solutions</p>
-            <p>Nouvelles</p>
-            <p>Contact</p>
-          </div>
-        </div>
       </div>
     </div>
   );

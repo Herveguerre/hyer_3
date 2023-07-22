@@ -41,10 +41,13 @@
 }
 .burger{
   cursor: pointer;
+  z-index: 9999999999999;
 }
 
-.menu{
-   display: none; 
+.menu1{
+  
+  margin: 0 auto;
+  display: none; 
   width: 50vw;
   height: 20vw;
   background-color: #ffffff;
@@ -53,6 +56,34 @@
   right: 0; /* Position à droite de l'écran */
   z-index: 999999;
 }
-.burger:hover .menu {
+.menu2{
+  margin-top: 30px;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+}
+.menu3{
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+}
+.menubox{
+  margin-top: 30px;
+  color: #000d10;
+}
+.menubox p{
+  text-decoration: none;
+  list-style: none;
+  
+  color: #000d10;
+}
+.burger:hover .menu1 {
   display: block;
+  z-index: 999999;
+  
 }

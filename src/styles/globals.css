@@ -8,7 +8,7 @@
   --clr-6: #8aadb2;
   --clr-7: #f0f0f0;
 }
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,6 +18,7 @@
 }
 .font30 {
   font-size: 30px;
+  color: var(--clr-3);
 }
 .font20 {
   font-size: 20px;
@@ -30,6 +31,9 @@
   font-weight: 700;
   color: var(--clr-2);
 }
+.grey{
+  color: var(--clr-5);
+}
 .marge {
   margin: 0 auto;
 }
@@ -40,21 +44,56 @@
   max-width: 1440px;
 }
 .burger{
+  color: #fff;
   cursor: pointer;
-  z-index: 9999999999999;
+  z-index: 9;
 }
-
+.burger:hover{
+  background-color: #252424;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
 .menu1{
-  
   margin: 0 auto;
-  display: none; 
-  width: 50vw;
-  height: 20vw;
+  /* display: none; */
+  width: 1000px;
+  height: 100vh;
   background-color: #ffffff;
   position: fixed;
   top: 0; /* Position en haut de l'écran */
   right: 0; /* Position à droite de l'écran */
-  z-index: 999999;
+  z-index: 99;
+} 
+.nav li{
+  text-decoration: none;
+}
+.menu1 p:hover{
+  text-decoration: underline;
+}
+.menubtn{
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 10px;
+  justify-content:end
+}
+.menubtn button{
+  background-color: var(--clr-3);
+  color: var(--clr-4);
+  padding: 10px;
+  border-radius: 30px;
+}
+.x{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #8aadb2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu2{
   margin-top: 30px;
@@ -73,14 +112,15 @@
   font-weight: 600;
 }
 .menubox{
-  margin-top: 30px;
-  color: #000d10;
+  margin-top: 50px;
+  color: var(--clr-5);
+  width: 400px;
 }
 .menubox p{
   text-decoration: none;
   list-style: none;
+  margin-bottom: 20px;
   
-  color: #000d10;
 }
 .burger:hover .menu1 {
   display: block;

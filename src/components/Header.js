@@ -1,16 +1,18 @@
 import Link from "next/link";
-import React from "react";
-//import React, { useState } from 'react';
+import { useState } from "react";
 
-// import Link from "next/link";
-// const MainComponent = () => {
-//   const [isMenuOpen, setIsMenuOpen] = useState(false);
-// }
-//   const handleBurgerClick = () => {
-//     setIsMenuOpen(!isMenuOpen);
-//   };
+//import React from "react";
+//import React, { useState } from "react";
 
 export default function Header() {
+  // Variables d'état pour suivre l'état d'ouverture/fermeture des menus
+  const [menuOpen1, setMenuOpen1] = useState(false);
+
+  // Fonction pour basculer l'état d'ouverture du premier menu
+  const toggleMenu1 = () => {
+    setMenuOpen1(!menuOpen1);
+  };
+
   return (
     <div className="header">
       <div className="loggo">
@@ -56,61 +58,74 @@ export default function Header() {
         </p>
       </div>
 
-      <div className="nav">
-        <Link href="/Solutions">
-          <li>Solutions</li>
-        </Link>
-        <Link href="/About">
-          <li>A propos de nous</li>
-        </Link>
-        <Link href="/OnDemande">
-          <li>sur demande</li>
-        </Link>
-        <Link href="/Contact">
-          <li>Contact</li>
-        </Link>
-      </div>
+      <div className="burgercontainer ">
+        <div className="burger_1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            fill="currentColor"
+            viewBox="0 0 256 256"
+            width="25"
+            height="25"
+          >
+            <rect width="256" height="256" fill="none" />
+            <path
+              d="M128,224l-40,8V208l16-16V152L24,168V144l80-40,.11255-56a24,24,0,0,1,48,0l.11255,56,80,40v24l-80-16v40L168,208v24Z"
+              fill="none"
+              stroke="#FFFFFF"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="8px"
+            />
+          </svg>
+        </div>
 
-      <div className="burgercontainer">
-        <div className="burger_1">&#x2708;</div>
-
-        <div className="burger">
-          {" "}
-          {/* onClick={handleBurgerClick} */}
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
+        <div className="burger" onClick={toggleMenu1}>
+        &#x2630;
+        </div>
+        {menuOpen1 && (
           <div className="menu1">
-            <div> </div>
+            <div className="menubtn">
+              <button>Connection</button> <button>Enregistrer</button>
+              <button className="x" onClick={toggleMenu1}>
+              &#x2715;
+              </button>
+            </div>
+
             <div className=" menu2 flex">
               <div className="menubox">
-                <p>surdemande</p>
+                <p className="font30">sur demande</p>
                 <p>charte privé</p>
               </div>
               <div className="menubox">
-                <p>vols partagés</p>
-                <p>vols disponibles</p>
-                <p>proposer un vol</p>
+              <p className="font30">vols partagés</p>
+              <Link href="/Propose_a_flight"><p className="grey">vols disponibles</p></Link>
+                <p className="grey">proposer un vol</p>
               </div>
             </div>
             <div className="menu3 flex">
               <div className="menubox">
-                <p>Adhésions</p>
-                <p>Élever</p>
+                <p className="font30">Adhésions</p>
+                <p className="grey">Élever</p>
                 <p>Hyer® Altitude</p>
               </div>
               <div className="menubox">
-                <p>Entreprise</p>
-                <p>À propos de nous</p>
+                <p className="font30">Entreprise</p>
+                <Link href="/About">
+                  <p className="grey">À propos de nous</p>
+                </Link>
                 <Link href="/Solutions">
-          <p>Solutions</p>
-        </Link>
-                <p>Nouvelles</p>
-                <p>Contact</p>
+                  <p className="grey">Solutions</p>
+                </Link>
+                <p className="grey">Nouvelles</p>
+                <Link href="/Contact">
+                <p className="grey">Contact</p>
+                </Link>
+                
               </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
       {/* <Menu isOpen={isMenuOpen} /> */}
       <div className="HeroContent">

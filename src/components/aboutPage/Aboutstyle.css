@@ -15,7 +15,6 @@
   margin-top: 20px;
   margin: 0 auto;
   background-color: var(--clr-6);
-  
 }
 .about_container hr {
   color: #000000;
@@ -153,7 +152,6 @@
 /*avis client*/
 .Avis {
   background-color: var(--clr-6);
-  
 }
 .Avis hr {
   color: #ffffff;

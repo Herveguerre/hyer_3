@@ -222,6 +222,7 @@
   margin: 0 auto;
   width: 90vw;
   margin-top: 45px;
+  max-width: 1440px;
 }
 .div_r_s3_1 {
   display: flex;
@@ -401,6 +402,7 @@
 .sec_5 {
   margin: 0 auto;
   width: 90%;
+  max-width: 1440px;
   font-size: 20px;
 }
 .sec_5_title {

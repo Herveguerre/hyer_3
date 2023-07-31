@@ -25,9 +25,7 @@ function YourComponent() {
     <div className="sec_3">
       <div className="div_l_s3">
         <p className="div_l_s3P">
-          Destinations
-          <br />
-          populaires
+          Destinations <br/> populaires
         </p>
         <img
           className="imgsec3"

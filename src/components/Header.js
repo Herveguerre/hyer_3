@@ -14,7 +14,9 @@ export default function Header() {
   };
 
   return (
+    
     <div className="header">
+      <div className="headerin">
       <div className="loggo">
         <p>
           <Link href="/">
@@ -137,6 +139,7 @@ export default function Header() {
         <button className="HeroBtn">Réserver un avion</button>
         <button className="HeroBtn">Réserver un vol partagé</button>
       </div>
+    </div>
     </div>
   );
 }

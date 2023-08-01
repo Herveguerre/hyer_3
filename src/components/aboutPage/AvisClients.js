@@ -2,9 +2,10 @@ import React from "react";
 
 export default function AvisClients() {
   return (
+    <div className="Avisbg">
     <div className="Avis ">
       <hr className="avis_hr" />
-      <div className="flex ">
+      <div className="flex wrap">
         <div>
           <p className="AvisClients">Ce que disent nos clients</p>
         </div>
@@ -35,6 +36,7 @@ export default function AvisClients() {
         </div>
       </div>
       <hr />
+    </div>
     </div>
   );
 }

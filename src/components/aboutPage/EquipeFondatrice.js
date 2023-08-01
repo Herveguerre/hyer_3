@@ -2,7 +2,8 @@ import React from "react";
 
 export default function EquipeFondatrice() {
   return (
-    <div className="about flex">
+  <div className="Avisbg">
+    <div className="Avis  flex ">
       <div className="fondatrice_1">
         <p className="fondatrice_1P1">Équipe fondatrice</p>
         <p className="fondatrice_1P2">
@@ -12,7 +13,7 @@ export default function EquipeFondatrice() {
           l'affrètement privé est encore trop complexe. Certains services, qui
           sont généralement tenus pour acquis dans ce secteur, ne sont pas
           fournis au même niveau qu'ils devraient l'être. Ils ont construit
-          Hyer® pour résoudre ce problème.{" "}
+          Hyer® pour résoudre ce problème.
         </p>
       </div>
       <div className="fondatrice_2">
@@ -26,6 +27,7 @@ export default function EquipeFondatrice() {
           les principales compagnies aériennes du monde entier.
         </p>
       </div>
+      
       <div className="fondatrice_3">
         <img src=".\img\img_about\1611760704-maxvandoorne (1).jpg" />
         <p className="fondatrice_1P1">Max van Doorne</p>
@@ -38,6 +40,7 @@ export default function EquipeFondatrice() {
         </p>
       </div>
       <hr/>
+    </div>
     </div>
   );
 }

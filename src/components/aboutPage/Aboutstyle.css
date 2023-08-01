@@ -13,8 +13,14 @@
 }
 .about {
   margin-top: 20px;
-  margin: 0 auto;
+  
+
+  flex-wrap: wrap;
+  
   background-color: var(--clr-6);
+  
+  margin: 0 auto;
+  justify-content: center;
 }
 .about_container hr {
   color: #000000;
@@ -60,6 +66,7 @@
   .imglogoabout {
     margin-left: 80%;
   }
+  
 }
 @media (min-width: 1440px) {
   .about_img1 img {
@@ -77,9 +84,13 @@
     height: 50px;
     gap: 10px;
   }
+  .about{
+    flex-wrap: nowrap;
+  }
 }
 
 /*equipe fondatrice*/
+
 .fondatrice_1 {
   margin: 0 auto;
   width: 90%;
@@ -98,6 +109,7 @@
 }
 .fondatrice_2,
 .fondatrice_3 {
+  
   overflow: hidden;
   margin: 0 auto;
   width: 90%;
@@ -120,13 +132,22 @@
   .fondatrice_2 img,
   .fondatrice_3 img {
     width: 700px;
+   
   }
+  .fondatrice_2,
+.fondatrice_3 {
+  
+  margin-left: 20px;
+}
 }
 
 /*pourquoi hyer*/
 .about_card {
   margin: 0 auto;
   width: 90%;
+  min-width: 300px;
+  padding: 10px 20px;
+  flex-wrap: wrap;
 }
 .pourquoi {
   margin: 0 auto;
@@ -147,14 +168,24 @@
 @media (min-width: 768px) {
   .sec_5_card {
     width: 90%;
+    /* min-width: 250px; */
   }
 }
+
 /*avis client*/
-.Avis {
+.Avisbg{
   background-color: var(--clr-6);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.Avis {
+  
+  margin: 0 auto;
+  max-width: 1440px;
 }
 .Avis hr {
   color: #ffffff;
+  
 }
 .avis {
   width: 300px;
@@ -173,7 +204,11 @@
 .avis p {
   margin: 50px 30px;
 }
-
+@media (max-width: 768px) {
+  .wrap{
+    flex-wrap: wrap;
+  }
+}
 /*notre technologie*/
 
 .notretechoTitle {

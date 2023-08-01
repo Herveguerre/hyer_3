@@ -2,7 +2,8 @@ import React from "react";
 
 export default function PourquoiHyer() {
   return (
-    <div className="about flex">
+    <div className="Avisbg">
+    <div className="about Avis flex">
       <div className="pourquoi">
         <p className="pourquoiP1">Pourquoi Hyer®</p>
       </div>
@@ -372,6 +373,7 @@ export default function PourquoiHyer() {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 }

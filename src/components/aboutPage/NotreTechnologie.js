@@ -2,8 +2,13 @@ import React from "react";
 
 export default function NotreTechnologie() {
   return (
-    <div className="notretecho about flex wrap">
+    <div className="Avisbg">
+      <div>
       <p className="notretechoTitle">Notre chronologie</p>
+      </div>
+    <div className="notretecho about flex wrap">
+      
+      
 
       <div className="notretechoDiv">
         <p className="fontwb">2019</p>
@@ -54,6 +59,7 @@ export default function NotreTechnologie() {
         <p>Nous croyons que dans un monde qui fait de vous un numéro, nous sommes en mesure d'utiliser la technologie pour vous offrir un service personnalisé inégalé.</p>
         <img src=".\img\img_about\1630882773-young-woman-on-a-plane.avif" alt="personnel"/>
       </div>
+    </div>
     </div>
   );
 }

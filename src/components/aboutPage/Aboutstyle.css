@@ -13,12 +13,11 @@
 }
 .about {
   margin-top: 20px;
-  
 
   flex-wrap: wrap;
-  
+
   background-color: var(--clr-6);
-  
+
   margin: 0 auto;
   justify-content: center;
 }
@@ -30,6 +29,7 @@
 }
 .imglogoabout img {
   width: 50px;
+  
 }
 
 .about_container {
@@ -52,13 +52,15 @@
   width: 30px;
 }
 .about_img1 img {
+  margin: 0 auto;
   border-bottom-right-radius: 50px;
   width: 100%;
-  height: 200px;
+  max-width: 1440px;
+  
 }
 @media (max-width: 768px) {
   .about_img1 img {
-    height: 400px;
+    height: 200px;
   }
   .about_nav {
     display: none;
@@ -66,7 +68,6 @@
   .imglogoabout {
     margin-left: 80%;
   }
-  
 }
 @media (min-width: 1440px) {
   .about_img1 img {
@@ -84,13 +85,15 @@
     height: 50px;
     gap: 10px;
   }
-  .about{
+  .about {
     flex-wrap: nowrap;
   }
 }
 
 /*equipe fondatrice*/
-
+.fondatriceW {
+  display: block;
+}
 .fondatrice_1 {
   margin: 0 auto;
   width: 90%;
@@ -109,7 +112,6 @@
 }
 .fondatrice_2,
 .fondatrice_3 {
-  
   overflow: hidden;
   margin: 0 auto;
   width: 90%;
@@ -132,26 +134,28 @@
   .fondatrice_2 img,
   .fondatrice_3 img {
     width: 700px;
-   
   }
   .fondatrice_2,
-.fondatrice_3 {
-  
-  margin-left: 20px;
-}
+  .fondatrice_3 {
+    margin-left: 20px;
+  }
+  .fondatriceW {
+    display: flex;
+  }
 }
 
 /*pourquoi hyer*/
 .about_card {
   margin: 0 auto;
   width: 90%;
+  max-width: 1440px;
   min-width: 300px;
   padding: 10px 20px;
   flex-wrap: wrap;
 }
 .pourquoi {
   margin: 0 auto;
-  width: 90%;
+  max-width: 90%;
   padding-top: 20px;
 }
 .pourquoiP1 {
@@ -169,23 +173,22 @@
   .sec_5_card {
     width: 90%;
     /* min-width: 250px; */
+    flex-wrap: nowrap;
   }
 }
 
 /*avis client*/
-.Avisbg{
+.Avisbg {
   background-color: var(--clr-6);
   padding-bottom: 50px;
   padding-top: 50px;
 }
 .Avis {
-  
   margin: 0 auto;
   max-width: 1440px;
 }
 .Avis hr {
   color: #ffffff;
-  
 }
 .avis {
   width: 300px;
@@ -205,12 +208,16 @@
   margin: 50px 30px;
 }
 @media (max-width: 768px) {
-  .wrap{
+  .wrap {
     flex-wrap: wrap;
   }
 }
 /*notre technologie*/
-
+.notretecho{
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+}
 .notretechoTitle {
   padding-top: 20px;
   text-align: center;

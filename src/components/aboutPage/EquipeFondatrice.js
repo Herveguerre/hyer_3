@@ -3,7 +3,7 @@ import React from "react";
 export default function EquipeFondatrice() {
   return (
   <div className="Avisbg">
-    <div className="Avis  flex ">
+    <div className="Avis  fondatriceW flex ">
       <div className="fondatrice_1">
         <p className="fondatrice_1P1">Équipe fondatrice</p>
         <p className="fondatrice_1P2">

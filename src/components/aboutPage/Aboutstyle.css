@@ -3,7 +3,6 @@
 .logo_mobil {
   background-color: var(--clr-6);
   padding: 20px;
-
   display: flex;
   height: 250px;
 }
@@ -13,11 +12,8 @@
 }
 .about {
   margin-top: 20px;
-
   flex-wrap: wrap;
-
   background-color: var(--clr-6);
-
   margin: 0 auto;
   justify-content: center;
 }
@@ -29,7 +25,6 @@
 }
 .imglogoabout img {
   width: 50px;
-  
 }
 
 .about_container {
@@ -56,7 +51,6 @@
   border-bottom-right-radius: 50px;
   width: 100%;
   max-width: 1440px;
-  
 }
 @media (max-width: 768px) {
   .about_img1 img {
@@ -213,7 +207,7 @@
   }
 }
 /*notre technologie*/
-.notretecho{
+.notretecho {
   max-width: 1440px;
   display: flex;
   flex-wrap: wrap;

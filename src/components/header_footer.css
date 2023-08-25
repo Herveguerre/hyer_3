@@ -80,13 +80,22 @@ position: relative;
   position: relative;
   width: 100%;
   display: flex;
-  background-image: url(/img/img_home/hero.jpg);
+  /*background-image: url(/img/img_home/hero.jpg);*/
+  background-image: url(/img/hero.mp4);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 970px;
   
 
+}
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 

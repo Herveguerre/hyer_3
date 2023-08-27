@@ -16,6 +16,11 @@ export default function Header() {
   return (
     
     <div className="header">
+      <video autoplay muted loop id="background-video">
+        <source src="/img/hero.mp4" type="video/mp4"/>
+        
+      </video>
+
       <div className="headerin">
       <div className="loggo">
         <p>

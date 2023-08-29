@@ -22,66 +22,65 @@ function YourComponent() {
 
   // Rendu du composant YourComponent
   return (
-  <div className="marge">
-    <div className="sec_3 w1440">
-      <div className="div_l_s3">
-        <p className="div_l_s3P">
-          Destinations
-          <br />
-          populaires
-        </p>
-        <img
-          className="imgsec3"
-          id="image"
-          src={imageSrc}
-          alt="Image par défaut"
-        />
-      </div>
-      <div className="div_r_s3">
-        <div className="div_r_s3_1">
-          <div
-            className="r_s3_bar"
-            onMouseEnter={() =>
-              changeImage("/img/img_ondemande/londre.avif")
-            }
-            onMouseLeave={resetImage}>
-            <p className="div_r_s3P1">Londre (BQH)</p>
-            <p className="div_r_s3P21">Angleterre</p>
-          </div>
-          <div
-            className="r_s3_ib"
-            onMouseEnter={() =>
-              changeImage("/img/img_home/1611590505-ibiza.jpg")
-            }
-            onMouseLeave={resetImage}>
-            <p className="div_r_s3P1">Nice (NCE)</p>
-            <p className="div_r_s3P2">France</p>
-          </div>
+    <div className="marge">
+      <div className="sec_3 w1440">
+        <div className="div_l_s3">
+          <p className="div_l_s3P">
+            Destinations
+            <br />
+            populaires
+          </p>
+          <img
+            className="imgsec3"
+            id="image"
+            src={imageSrc}
+            alt="Image par défaut"
+          />
         </div>
+        <div className="div_r_s3">
+          <div className="div_r_s3_1">
+            <div
+              className="r_s3_bar"
+              onMouseEnter={() => changeImage("/img/img_ondemande/londre.avif")}
+              onMouseLeave={resetImage}
+            >
+              <p className="div_r_s3P1">Londre (BQH)</p>
+              <p className="div_r_s3P21">Angleterre</p>
+            </div>
+            <div
+              className="r_s3_ib"
+              onMouseEnter={() =>
+                changeImage("/img/img_home/1611590505-ibiza.jpg")
+              }
+              onMouseLeave={resetImage}
+            >
+              <p className="div_r_s3P1">Nice (NCE)</p>
+              <p className="div_r_s3P2">France</p>
+            </div>
+          </div>
 
-        <div className="div_r_s3_1">
-          <div
-            className="r_s3_can"
-            onMouseEnter={() =>
-              changeImage("/img/img_home/1611590478-paris.jpg")
-            }
-            onMouseLeave={resetImage}>
-            <p className="div_r_s3P1">Paris (LBG)</p>
-            <p className="div_r_s3P2">France</p>
-          </div>
-          <div
-            className="r_s3_pa"
-            onMouseEnter={() =>
-              changeImage("/img/img_ondemande/zurich.avif")
-            }
-            onMouseLeave={resetImage}
-          >
-            <p className="div_r_s3P1">Zurich (ZRH)</p>
-            <p className="div_r_s3P2">Suisse</p>
+          <div className="div_r_s3_1">
+            <div
+              className="r_s3_can"
+              onMouseEnter={() =>
+                changeImage("/img/img_home/1611590478-paris.jpg")
+              }
+              onMouseLeave={resetImage}
+            >
+              <p className="div_r_s3P1">Paris (LBG)</p>
+              <p className="div_r_s3P2">France</p>
+            </div>
+            <div
+              className="r_s3_pa"
+              onMouseEnter={() => changeImage("/img/img_ondemande/zurich.avif")}
+              onMouseLeave={resetImage}
+            >
+              <p className="div_r_s3P1">Zurich (ZRH)</p>
+              <p className="div_r_s3P2">Suisse</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }

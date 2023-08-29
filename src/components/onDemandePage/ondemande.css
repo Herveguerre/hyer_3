@@ -329,7 +329,7 @@ li {
   width: 90%;
   max-width: 1440px;
 }
-.surdemandetitle{
+.surdemandetitle {
   font-size: 30px;
   margin: 20px 0;
 }
@@ -382,14 +382,13 @@ li {
   border-top: solid 1px #000;
   margin-right: 20px;
   margin-bottom: 30px;
-  
 }
 .NosClientsAppbox :nth-child(1) {
   margin-top: 30px;
   font-size: 40px;
   font-weight: 600;
 }
-.NosClientsAppbox :nth-child(2){
+.NosClientsAppbox :nth-child(2) {
   font-size: 20px;
   margin-top: 10px;
 }
@@ -397,7 +396,7 @@ li {
 /*destination populaire */
 
 /*covid-19*/
-.covidcontainer{
+.covidcontainer {
   height: 200px;
 }
 .covidcard {
@@ -418,10 +417,9 @@ li {
 }
 .voirplus:hover ~ .block {
   display: none;
-  
 }
 
-.voirplus{
+.voirplus {
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;

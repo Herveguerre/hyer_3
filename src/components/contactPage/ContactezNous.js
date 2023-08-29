@@ -29,17 +29,17 @@ export default function ContactezNous() {
           <form>
             <div>
               <label htmlFor="name">Nom :</label>
-              <input
-                type="text"
-                id="name"
-               
-                required placeholder="Nom"
-              />
+              <input type="text" id="name" required placeholder="Nom" />
             </div>
 
             <div>
               <label htmlFor="email"> Courriel</label>
-              <input type="email" id="email" required placeholder="Adresse e-mail" />
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="Adresse e-mail"
+              />
             </div>
 
             <div>
@@ -54,10 +54,14 @@ export default function ContactezNous() {
 
             <div>
               <label htmlFor="message">Message </label>
-              <textarea id="message" required placeholder="Ecrivez ici.."></textarea>
+              <textarea
+                id="message"
+                required
+                placeholder="Ecrivez ici.."
+              ></textarea>
             </div>
 
-            <button  type="submit">Envoyer le message</button>
+            <button type="submit">Envoyer le message</button>
           </form>
         </div>
       </div>

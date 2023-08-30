@@ -21,15 +21,14 @@
 }
 /*header*/
 /*Derniervolsajoutes*/
-.bg_derniervols{
-
+.bg_derniervols {
   background-color: var(--clr-7);
 }
-.tetetableau{
+.tetetableau {
   justify-content: space-between;
   padding: 10px;
 }
-.derniervols{
+.derniervols {
   padding: 10px;
   background-color: var(--clr-3);
   color: var(--clr-4);
@@ -41,24 +40,24 @@
   color: white;
   padding: 20px;
 }
-.gris{
+.gris {
   background-color: #bbbbbb;
   justify-content: space-between;
   padding: 20px;
   width: 70%;
 }
-.w{
+.w {
   width: 400px;
 }
-.bgw{
+.bgw {
   background-color: #ffffff;
   padding: 10px;
 }
-.bgw p{
+.bgw p {
   padding: 5px;
 }
 
-.bgbleu{
+.bgbleu {
   background-color: var(--clr-7);
   padding: 10px;
 }

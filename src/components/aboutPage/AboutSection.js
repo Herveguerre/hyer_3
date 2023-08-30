@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <div className="about">
       <div className="about_container">
-        <hr/>
+        <hr />
         <div className="about_content">
           <p className="about_contentP1">À propos de Hyer®</p>
           <p className="about_contentP2">
